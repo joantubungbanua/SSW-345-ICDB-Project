@@ -41,7 +41,7 @@ User provides a specified a decimal amount in a currency of their choice in form
 
 **Design Sketches** 
 
-**State Transition ** 
+**State Transition** 
 
 <img width="489" alt="Screen Shot 2021-03-28 at 8 11 08 PM" src="https://user-images.githubusercontent.com/20996619/112777146-6c406200-900f-11eb-835b-ede387c828cd.png">
 
