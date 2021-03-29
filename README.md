@@ -1,5 +1,5 @@
 # SSW-345-ICDB-Project
 
-Andrew Jones - Github ID: aej-11a
-JD Pablo - Github ID: JDPablo
-Tom Ripp 
+1) Andrew Jones - Github ID: aej-11a
+2) JD Pablo - Github ID: JDPablo
+3) Tom Ripp - Github ID: 
