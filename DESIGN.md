@@ -12,9 +12,11 @@ The ICDB solves the issue of international miscommunication due to timezone mix-
 **Use Case #1: Time Conversion**
 
 **Preconditions:**
-The ICDB has every user’s location stored.
+The ICDB has every user’s location stored.  
+
 **Main Flow:**
 User provides a specified time with the appropriate prefix, eg. 1:15 pm [S1]. The bot will search for that user’s timezone in its database and compare it to the discord users’ timezones. The bot will determine the conversion between the user’s timezone and the discord users’ timezones, calculate the time for the discord users, and post the different times [S2].
+
 **Subflows:**
 [S1] : The user may not provide the appropriate prefix so the bot will assume 24-hour format of the time, eg. 1:15 will be viewed as 1:15 am and 13:15 will be 1:15 pm.
 [S2] : If a discord user shares the same timezone as the user, the bot will not go through the conversion process nor post the time as it would be redundant.
@@ -22,14 +24,18 @@ Alternative Flows:
 [E1]: Any numbers without a colon will be ignored to avoid unnecessary time conversions when it is not a time.
 
 **Use Case #2: Convert price user mentioned into currency from countries of others users in the Discord**
+
 **Preconditions:**
 The ICDB has every user’s location stored.
+
 **Main Flow:**
 User provides a specified a decimal amount in a currency of their choice in format $4.00 or 4  dollars. The bot will search for that user’s timezone in its database and compare it to the discord users’ timezones. The bot will determine the conversion between the user’s currency and the discord users’ currency based on location, calculate the currency conversion for the discord users, and post the different currency conversions
 [S2] If a discord user shares the same timezone as the user, the bot will not go through the conversion process nor post the currency conversion as it would be redundant.
+
 **Subflows:**
 [S1] : The user may not provide the appropriate prefix so the bot will assume 24-hour format of the time, eg. 1:15 will be viewed as 1:15 am and 13:15 will be 1:15 pm.
 [S2] : If a discord user shares the same timezone as the user, the bot will not go through the conversion process nor post the time as it would be redundant.
+
 **Alternative Flows: **
 [E1]: Any numbers without a proper currency sign will be ignored to avoid unnecessary currency conversions when it is not a form of currency.
 
