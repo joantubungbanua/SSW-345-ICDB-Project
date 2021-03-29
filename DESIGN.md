@@ -9,7 +9,7 @@ The ICDB solves the issue of international miscommunication due to timezone mix-
 
 **Use Cases** 
 
-**1) Use Case #1: Time Conversion**
+**Use Case #1: Time Conversion**
 
 **Preconditions:**
 The ICDB has every user’s location stored.
