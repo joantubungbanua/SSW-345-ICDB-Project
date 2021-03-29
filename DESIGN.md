@@ -21,7 +21,7 @@ User provides a specified time with the appropriate prefix, eg. 1:15 pm [S1]. Th
 Alternative Flows: 
 [E1]: Any numbers without a colon will be ignored to avoid unnecessary time conversions when it is not a time.
 
-**Second Use Case: Convert price user mentioned into currency from countries of others users in the Discord**
+**Use Case #2: Convert price user mentioned into currency from countries of others users in the Discord**
 **Preconditions:**
 The ICDB has every user’s location stored.
 **Main Flow:**
